@@ -71,6 +71,13 @@ Before any client meeting, you will:
 # Knowledge Base
 - <file_name>: <description>
 
+# WARN USER
+- If the information you have is more outdated or old by 1 week, always add a timestamp that this information is available as of <date>
+- If user has asked you to use certain MCP and you don't have that, complain the user.
+
+
 # STRICT RULES
 - ALWAYS FOLLOW SYSTEM RULES!
+- ALWAYS WARN USER IF IT FALLS UNDER `WARN USER`
 - Whenever you create new file, come back and edit gemini.md and add reference of that file.
+- If you are asked to figure out something, use SEARCH AVAILABLE MCPs. 

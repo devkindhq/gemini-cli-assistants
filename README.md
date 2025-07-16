@@ -127,6 +127,16 @@ To check if you have any `CI` related environment variables set, you can use:
 env | grep ^CI
 ```
 
+## Available Agents
+
+Here's a list of the pre-configured Gemini CLI agent templates available in this repository:
+
+### Sales Strategy Assistant
+
+**Description:** A senior AI assistant designed to drive sales and identify new opportunities by proactively hunting for leads, analyzing strategic gaps, and delivering action-oriented outputs.
+
+[Read More](assistants/sales-strategy/GEMINI.md)
+
 ## Use Cases
 
 Gemini CLI Assistants are versatile and can be used for a variety of collaboration and workflow scenarios:
@@ -143,10 +153,15 @@ Gemini CLI Assistants are versatile and can be used for a variety of collaborati
   - For non-technical teams, simply place your project folder inside a shared drive (Google Drive, OneDrive, Dropbox, etc.).
   - Use the Gemini CLI from your desktop in that folder—no technical setup required. Desktop app versions of these drive services are available for easy access.
 
+## Model Context Protocols (MCPs)
+
+For more information on Model Context Protocols and how they extend the capabilities of the Gemini CLI, refer to the [MCP README](mcp/README.md).
+
 ## Resources
 
 - [Gemini CLI Configuration Guide](https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/configuration.md)
 - [Get your Gemini API Key](https://aistudio.google.com/app/apikey)
+- [Model Context Protocols (MCPs)](mcp/README.md)
 
 ## Contributing
 

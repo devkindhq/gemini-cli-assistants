@@ -117,6 +117,11 @@ Gemini CLI Assistants are versatile and can be used for a variety of collaborati
   - For non-technical teams, simply place your project folder inside a shared drive (Google Drive, OneDrive, Dropbox, etc.).
   - Use the Gemini CLI from your desktop in that folder—no technical setup required. Desktop app versions of these drive services are available for easy access.
 
+## Resources
+
+- [Gemini CLI Configuration Guide](https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/configuration.md)
+- [Get your Gemini API Key](https://aistudio.google.com/app/apikey)
+
 ## Contributing
 
 Contributions are welcome! Please open issues or pull requests for improvements or new agent templates.

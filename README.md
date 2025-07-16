@@ -49,6 +49,18 @@ Follow these steps to create a new project using a Gemini CLI assistant template
    git clone https://github.com/devkindhq/gemini-cli-assistants
    cd gemini-cli-assistants
    ```
+
+   **Alternative: Download Manually (No Git)**
+   If you don't have Git installed or prefer not to use it, you can download the repository as a ZIP file:
+   1. Go to the [Gemini CLI Assistants GitHub page](https://github.com/devkindhq/gemini-cli-assistants).
+   2. Click the green `<> Code` button.
+   3. Select `Download ZIP`.
+   4. Extract the contents of the ZIP file to a location on your computer (e.g., `~/Downloads/gemini-cli-assistants-main`).
+   5. Navigate into the extracted directory:
+      ```sh
+      cd ~/Downloads/gemini-cli-assistants-main
+      ```
+   Then, proceed with the rest of the setup steps, adjusting paths as necessary.
 2. **Create a folder for your Gemini CLI projects** (if you don't have one):
    ```sh
    mkdir -p ../gemini-cli-projects
@@ -100,6 +112,20 @@ gemini
 - You can ask Gemini to write information directly into files, so you don’t have to copy-paste content manually.
 - Type `/mcp` in the Gemini CLI to check which MCPs (Multi-Command Plugins) are available.
 - Press <kbd>Ctrl</kbd>+<kbd>T</kbd> in the Gemini CLI to view details about each MCP—helpful for discovering what’s available and what’s working.
+
+## Caveats
+
+If you have any environment variable that matches `CI` at the start of its name (e.g., `CI_TOKEN`, `CI_BUILD`), the Gemini CLI might interpret this as running in a Continuous Integration (CI) environment and disable its interactive prompt interface. To temporarily enable the prompt interface, unset such a variable for the specific command. For example:
+
+```sh
+env -u CI_BUILD gemini
+```
+
+To check if you have any `CI` related environment variables set, you can use:
+
+```sh
+env | grep ^CI
+```
 
 ## Use Cases
 

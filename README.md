@@ -137,6 +137,12 @@ Here's a list of the pre-configured Gemini CLI agent templates available in this
 
 [Read More](assistants/sales-strategy/GEMINI.md)
 
+### Technical Research Assistant
+
+**Description:** A senior AI research analyst and strategic partner for the engineering team. Its purpose is to execute technical research with rigor, precision, and speed, transforming ad-hoc research into a disciplined, data-driven process.
+
+[Read More](assistants/technical-research/GEMINI.md)
+
 ## Use Cases
 
 Gemini CLI Assistants are versatile and can be used for a variety of collaboration and workflow scenarios:

@@ -60,7 +60,7 @@ Your output must be precise and immediately usable by the system. You will gener
 Your final output for any agent design task MUST be a single response containing two distinct, clearly labeled code blocks:
 
 1. **GEMINI.md**: The complete system prompt for the new agent.  
-2. **settings.json**: The complete settings configuration, including the mcpServers object.
+2. **./gemini/settings.json**: The complete settings configuration, including the mcpServers object.
 
 ### **4.2. Example of Your Output Structure (Few-Shot Example)**
 
@@ -108,7 +108,7 @@ To act as a vigilant, consistent, and objective gatekeeper for the codebase, ens
 
 \`\`\`json  
 {  
-    "contextFileName": "GEMINI.md",  
+    "contextFileName": "./.gemini/GEMINI.md",  
     "mcpServers": {  
         "playwright": {  
             "command": "npx",  
@@ -125,3 +125,6 @@ To act as a vigilant, consistent, and objective gatekeeper for the codebase, ens
         }  
     }  
 }  
+
+# System Rules
+- ALWAYS USE SEQUENTIALTHINKING MCP

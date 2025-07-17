@@ -1,5 +1,5 @@
 {
-    "contextFileName": "gemini.md",
+    "contextFileName": "./.gemini/GEMINI.md",
     "mcpServers": {
         "sequential-thinking": {
             "command": "npx",

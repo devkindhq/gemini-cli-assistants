@@ -71,17 +71,11 @@ Follow these steps to create a new project using a Gemini CLI assistant template
    mkdir shopify-redesign-proposal
    cd shopify-redesign-proposal
    ```
-4. **Copy an agent template**
-   - Choose an agent from `gemini-cli-assistants/assistants/` (e.g., `sales-strategy`).
-   - Copy the `GEMINI.md` file into your project root:
-     ```sh
-     cp ../gemini-cli-assistants/assistants/sales-strategy/GEMINI.md .
-     ```
-   - Copy the settings file into a `.gemini` folder:
-     ```sh
-     mkdir -p .gemini
-     cp ../gemini-cli-assistants/assistants/sales-strategy/settings.json .gemini/
-     ```
+4. **Use an agent template**
+   - The agent templates are already located in their respective folders under `assistants/`.
+   - To use an agent, simply navigate to its folder (e.g., `assistants/sales-strategy/`) and run the `gemini` command from there.
+   - If you modify an agent's `GEMINI.md` or `.gemini/settings.json` file, you may need to close and reopen the Gemini CLI for the changes to take effect.
+
 
 ## 5. Project Structure Example
 

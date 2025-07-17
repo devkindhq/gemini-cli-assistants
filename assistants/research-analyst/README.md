@@ -51,7 +51,7 @@ Copy the following template into your `settings.json` file and populate the envi
 
 ```json
 {
-    "contextFileName": "gemini.md",
+    "contextFileName": "./.gemini/GEMINI.md",
     "mcpServers": {
         "sequential-thinking": {
             "command": "npx",

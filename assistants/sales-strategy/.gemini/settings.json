@@ -1,5 +1,5 @@
 {
-    "contextFileName": "GEMINI.md",
+    "contextFileName": "./.gemini/GEMINI.md",
     "mcpServers": {
         "peekaboo": {
             "command": "npx",

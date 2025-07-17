@@ -91,6 +91,7 @@ Follow these steps to create a new project using a Gemini CLI assistant template
    - The agent templates are already located in their respective folders under `assistants/`.
    - To use an agent, simply navigate to its folder (e.g., `assistants/sales-strategy/`) and run the `gemini` command from there.
    - If you modify an agent's `GEMINI.md` or `.gemini/settings.json` file, you may need to close and reopen the Gemini CLI for the changes to take effect.
+   - `projects/`: A folder where users can store project-specific information, documents, or data that the agents can reference. This folder is ignored by Git.
 
 
 ## 5. Project Structure Example

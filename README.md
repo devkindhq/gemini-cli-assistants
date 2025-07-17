@@ -80,7 +80,7 @@ Follow these steps to create a new project using a Gemini CLI assistant template
    - Copy the settings file into a `.gemini` folder:
      ```sh
      mkdir -p .gemini
-     cp ../gemini-cli-assistants/assistants/sales-strategy/settings.json .gemini/settings.json
+     cp ../gemini-cli-assistants/assistants/sales-strategy/settings.json .gemini/
      ```
 
 ## 5. Project Structure Example
@@ -141,7 +141,7 @@ Here's a list of the pre-configured Gemini CLI agent templates available in this
 
 **Description:** A senior AI research analyst and strategic partner for the engineering team. Its purpose is to execute technical research with rigor, precision, and speed, transforming ad-hoc research into a disciplined, data-driven process.
 
-[Read More](assistants/technical-research/GEMINI.md)
+[Read More](assistants/research-analyst/GEMINI.md)
 
 ## Use Cases
 

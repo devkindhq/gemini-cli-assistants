@@ -79,18 +79,18 @@ Follow these steps to create a new project using a Gemini CLI assistant template
 
 ## 5. Project Structure Example
 
-After following the setup steps, your project might look like this:
+After navigating into an agent's directory (e.g., `assistants/sales-strategy/`), your project structure will look like this:
 
 ```
-gemini-cli-projects/
-└── shopify-redesign-proposal/
+assistants/
+└── sales-strategy/
     ├── GEMINI.md
     └── .gemini/
         └── settings.json
 ```
 
-- `GEMINI.md`: The agent template you copied.
-- `.gemini/settings.json`: The configuration file for the Gemini CLI assistant.
+- `GEMINI.md`: The agent's system prompt and documentation.
+- `.gemini/settings.json`: The configuration file for the Gemini CLI assistant, including tool definitions.
 
 ## Usage
 

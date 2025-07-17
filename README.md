@@ -14,17 +14,33 @@ npm -v
 
 ## 2. Install Gemini CLI
 
-Install the Gemini CLI globally:
+Before installing the Gemini CLI, ensure you have Node.js (v16+ recommended) installed on your system. You can install it via your system's package manager or directly from the [Node.js website](https://nodejs.org/).
+
+### For macOS and Linux
+
+Install the Gemini CLI globally using npm or yarn:
 
 ```sh
 npm install -g @google/gemini-cli
-```
-
-Or with yarn:
-
-```sh
+# Or with yarn:
 yarn global add @google/gemini-cli
 ```
+
+### For Windows
+
+1.  **Install Node.js (if not already installed):**
+    Using Chocolatey (recommended package manager for Windows):
+    ```sh
+    choco install nodejs-lts -y
+    ```
+    Alternatively, download the installer from the [Node.js website](https://nodejs.org/).
+
+2.  **Install Gemini CLI:**
+    Open PowerShell or Command Prompt as an administrator and run:
+    ```sh
+    elevate npm install -g @google/gemini-cli
+    ```
+    (The `elevate` command is often available if you have Chocolatey installed, or you can manually run your terminal as administrator.)
 
 ## 3. Get Your Gemini API Key
 

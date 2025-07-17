@@ -8,32 +8,10 @@
                 "@modelcontextprotocol/server-sequential-thinking@latest"
             ]
         },
-        "google-search": {
-            "command": "npx",
-            "args": [
-                "-y",
-                "@modelcontextprotocol/server-google-search@latest"
-            ],
-            "env": {
-                "GOOGLE_API_KEY": "YOUR_GOOGLE_API_KEY",
-                "GOOGLE_CSE_ID": "YOUR_GOOGLE_CSE_ID"
-            }
-        },
-        "brave-search": {
-            "command": "npx",
-            "args": [
-                "-y",
-                "@modelcontextprotocol/server-brave-search@latest"
-            ],
-            "env": {
-                "BRAVE_API_KEY": "YOUR_BRAVE_API_KEY"
-            }
-        },
         "playwright": {
             "command": "npx",
             "args": [
-                "-y",
-                "@cloudflare/playwright-mcp@latest"
+                "@playwright/mcp@latest"
             ]
         },
         "github-analyzer": {
@@ -43,15 +21,8 @@
                 "@modelcontextprotocol/server-github@latest"
             ],
             "env": {
-                "GITHUB_TOKEN": "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
+                "GITHUB_TOKEN": "your_github_token_here"
             }
-        },
-        "visual-analyzer (macOS only)": {
-            "command": "npx",
-            "args": [
-                "-y",
-                "@steipete/peekaboo-mcp@latest"
-            ]
         },
         "file-memory": {
             "command": "npx",

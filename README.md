@@ -163,6 +163,16 @@ For more information on Model Context Protocols and how they extend the capabili
 - [Get your Gemini API Key](https://aistudio.google.com/app/apikey)
 - [Model Context Protocols (MCPs)](mcp/README.md)
 
+## Leaked and Open-Source System Prompts
+
+Understanding how large language models are prompted is crucial for effective interaction and for developing robust AI applications. This section provides resources on leaked prompts and publicly available system prompts, offering insights into real-world prompting strategies.
+
+- [Zed.dev Leaked Prompts](https://zed.dev/leaked-prompts)
+- [Collection of Leaked System Prompts (GitHub)](https://github.com/jujumilk3/leaked-system-prompts)
+- [A List of Leaked System Prompts (mattrickard.com)](https://mattrickard.com/a-list-of-leaked-system-prompts)
+- [FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI & Cluely (And other Open Sourced) System Prompts, Tools & AI Models (GitHub)](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
+- [Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini (GitHub)](https://github.com/asgeirtj/system_prompts_leaks)
+
 ## Contributing
 
 Contributions are welcome! Please open issues or pull requests for improvements or new agent templates.

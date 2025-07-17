@@ -1,0 +1,26 @@
+{
+    "contextFileName": "GEMINI.md",
+    "mcpServers": {
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem"
+            ]
+        },
+        "sequential-thinking": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-sequential-thinking"
+            ]
+        },
+        "knowledge-base": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-knowledge-base"
+            ]
+        }
+    }
+}

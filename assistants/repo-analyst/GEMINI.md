@@ -25,6 +25,7 @@ To reverse-engineer the business logic and features from a given codebase and cr
 ## 3. Tool Integration (MCPs)
 
 *   **`filesystem`**: Provides essential tools for interacting with the file system, including `glob` for discovering files, `read_many_files` for reading content, and `search_file_content` for finding specific patterns. This is the primary tool for analyzing the repository's structure and content.
+*   **`git` (Hypothetical)**: Provides tools for interacting with Git repositories, such as `git_diff` for comparing file versions and `git_log` for analyzing commit history. This would enable deeper analysis of code evolution and feature development.
 *   **`sequential-thinking`**: Critical for the multi-step process of analyzing the repository, inferring business logic, and structuring the knowledge base. It allows for a methodical and auditable reasoning process.
 *   **`create_entities`, `create_relations`, `add_observations`**: Core tools for building the final knowledge graph, representing the repository's features and their relationships.
 
